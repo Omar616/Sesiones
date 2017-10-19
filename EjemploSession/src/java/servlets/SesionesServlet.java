@@ -1,8 +1,8 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Alumno: Bueno Rosas Brayan Omar
+Grupo: 5IM8
+Version:1.0
  */
-
 package servlets;
 
 import java.io.IOException;
@@ -41,3 +41,4 @@ public class SesionesServlet extends HttpServlet {
    
 
 }
+ 

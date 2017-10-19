@@ -1,6 +1,7 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Alumno: Bueno Rosas Brayan Omar
+Grupo: 5IM8
+Version:1.0
  */
 
 package servlets;
@@ -26,12 +27,14 @@ public class ValidaSesionesServlet extends HttpServlet {
       //Pedimos el atributo, y verificamos si existe
       String claveSesion = (String) sesion.getAttribute("claveSesion");
 
-      if(claveSesion.equals("emmanueloropeza")){
+      if(claveSesion.equals("buenobueno")){
         titulo = "llave correcta continua la sesion";
+        response.sendRedirect("home.jsp");//llamada a lam pagina de inciio
       }
       else
       {
         titulo = "llave incorrecta inicie nuevamente sesion";
+        response.sendRedirect("ERROR.jsp");//Llamada a la pagina de error 
       }
 
 
